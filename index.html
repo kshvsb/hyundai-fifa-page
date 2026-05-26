@@ -113,6 +113,8 @@
 
   /* Content area */
   .content{padding:14px 18px 20px;flex:1;min-height:0;overflow-y:auto;-webkit-overflow-scrolling:touch;position:relative;}
+  .content.overlay-active{overflow:hidden;}
+  .content.overlay-active > .panel{display:none !important;}
 
   .section-title{
     display:flex;align-items:center;justify-content:space-between;margin:18px 2px 10px;
@@ -1560,6 +1562,7 @@ document.addEventListener('click', e => {
   tab.classList.add('active');
   const panel = $('#panel-' + tab.dataset.tab);
   if (panel) panel.classList.add('active');
+  document.querySelector('.content').scrollTop = 0;
 });
 
 /* ---------- Hyundai Bluelink SSO integration ---------- */
@@ -1837,14 +1840,17 @@ document.querySelectorAll('.bottom-nav .nav-item').forEach(item => {
     document.querySelectorAll('.bottom-nav .nav-item').forEach(i => i.classList.remove('active'));
     item.classList.add('active');
 
-    // Hide tabs and tournament card when not on home
+    // Reset all scroll positions on every nav switch
+    const content = document.querySelector('.content');
     const tabsRow = document.querySelector('.tabs');
     const tournCard = document.querySelector('.tournament-card');
     const hdr = document.querySelector('.header');
+    content.scrollTop = 0;
 
     if (action === 'home') {
       document.getElementById('your-team-overlay').classList.remove('open');
       document.getElementById('stats-overlay').classList.remove('open');
+      content.classList.remove('overlay-active');
       tabsRow.style.display = '';
       if (tournCard) tournCard.style.display = '';
       hdr.classList.remove('compact');
@@ -1853,15 +1859,16 @@ document.querySelectorAll('.bottom-nav .nav-item').forEach(item => {
       document.querySelector('.tab[data-tab="overview"]').classList.add('active');
       document.querySelectorAll('.panel').forEach(p => p.classList.remove('active'));
       document.getElementById('panel-overview').classList.add('active');
-      document.querySelector('.content').scrollTop = 0;
     } else if (action === 'your-team') {
       document.getElementById('stats-overlay').classList.remove('open');
+      content.classList.add('overlay-active');
       tabsRow.style.display = 'none';
       if (tournCard) tournCard.style.display = 'none';
       hdr.classList.add('compact');
       renderYourTeam();
     } else if (action === 'stats') {
       document.getElementById('your-team-overlay').classList.remove('open');
+      content.classList.add('overlay-active');
       tabsRow.style.display = 'none';
       if (tournCard) tournCard.style.display = 'none';
       hdr.classList.add('compact');
