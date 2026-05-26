@@ -1,0 +1,2848 @@
+{
+  "tournament": {
+    "id": 1,
+    "name": "FIFA World Cup 26™",
+    "year": 2026,
+    "host_countries": "United States, Mexico, Canada",
+    "start_date": "2026-06-11",
+    "end_date": "2026-07-19",
+    "total_teams": 48,
+    "total_matches": 104,
+    "format": "12 groups of 4, top 2 + 8 best 3rd advance to R32, then knockout to Final"
+  },
+  "venues": [
+    {
+      "id": 1,
+      "name": "Estadio Azteca",
+      "city": "Mexico City",
+      "country": "Mexico",
+      "capacity": 87523,
+      "note": "Opening match; 3rd WC at this stadium"
+    },
+    {
+      "id": 2,
+      "name": "Estadio Akron",
+      "city": "Guadalajara (Zapopan)",
+      "country": "Mexico",
+      "capacity": 49850,
+      "note": null
+    },
+    {
+      "id": 3,
+      "name": "Estadio BBVA",
+      "city": "Monterrey (Guadalupe)",
+      "country": "Mexico",
+      "capacity": 53500,
+      "note": null
+    },
+    {
+      "id": 4,
+      "name": "BMO Field",
+      "city": "Toronto",
+      "country": "Canada",
+      "capacity": 45736,
+      "note": "Capacity expanded for WC"
+    },
+    {
+      "id": 5,
+      "name": "BC Place",
+      "city": "Vancouver",
+      "country": "Canada",
+      "capacity": 54500,
+      "note": null
+    },
+    {
+      "id": 6,
+      "name": "MetLife Stadium",
+      "city": "East Rutherford (New York/NJ)",
+      "country": "United States",
+      "capacity": 82500,
+      "note": "Hosts the Final"
+    },
+    {
+      "id": 7,
+      "name": "SoFi Stadium",
+      "city": "Los Angeles",
+      "country": "United States",
+      "capacity": 70240,
+      "note": "Hosts semi-final"
+    },
+    {
+      "id": 8,
+      "name": "AT&T Stadium",
+      "city": "Arlington (Dallas)",
+      "country": "United States",
+      "capacity": 80000,
+      "note": "Hosts semi-final; most matches (9)"
+    },
+    {
+      "id": 9,
+      "name": "Mercedes-Benz Stadium",
+      "city": "Atlanta",
+      "country": "United States",
+      "capacity": 71000,
+      "note": null
+    },
+    {
+      "id": 10,
+      "name": "NRG Stadium",
+      "city": "Houston",
+      "country": "United States",
+      "capacity": 72220,
+      "note": null
+    },
+    {
+      "id": 11,
+      "name": "Lincoln Financial Field",
+      "city": "Philadelphia",
+      "country": "United States",
+      "capacity": 69796,
+      "note": null
+    },
+    {
+      "id": 12,
+      "name": "Hard Rock Stadium",
+      "city": "Miami",
+      "country": "United States",
+      "capacity": 64767,
+      "note": "Hosts 3rd-place match"
+    },
+    {
+      "id": 13,
+      "name": "Lumen Field",
+      "city": "Seattle",
+      "country": "United States",
+      "capacity": 69000,
+      "note": null
+    },
+    {
+      "id": 14,
+      "name": "Levi's Stadium",
+      "city": "Santa Clara (San Francisco Bay)",
+      "country": "United States",
+      "capacity": 68500,
+      "note": null
+    },
+    {
+      "id": 15,
+      "name": "Arrowhead Stadium",
+      "city": "Kansas City",
+      "country": "United States",
+      "capacity": 76416,
+      "note": null
+    },
+    {
+      "id": 16,
+      "name": "Gillette Stadium",
+      "city": "Foxborough (Boston)",
+      "country": "United States",
+      "capacity": 65878,
+      "note": null
+    }
+  ],
+  "groups": [
+    {
+      "id": "A",
+      "name": "Group A"
+    },
+    {
+      "id": "B",
+      "name": "Group B"
+    },
+    {
+      "id": "C",
+      "name": "Group C"
+    },
+    {
+      "id": "D",
+      "name": "Group D"
+    },
+    {
+      "id": "E",
+      "name": "Group E"
+    },
+    {
+      "id": "F",
+      "name": "Group F"
+    },
+    {
+      "id": "G",
+      "name": "Group G"
+    },
+    {
+      "id": "H",
+      "name": "Group H"
+    },
+    {
+      "id": "I",
+      "name": "Group I"
+    },
+    {
+      "id": "J",
+      "name": "Group J"
+    },
+    {
+      "id": "K",
+      "name": "Group K"
+    },
+    {
+      "id": "L",
+      "name": "Group L"
+    }
+  ],
+  "teams": [
+    {
+      "id": 1,
+      "name": "Mexico",
+      "short_code": "MEX",
+      "flag": "🇲🇽",
+      "group": "A",
+      "confederation": "CONCACAF",
+      "is_host": 1,
+      "is_defending_champion": 0
+    },
+    {
+      "id": 2,
+      "name": "South Africa",
+      "short_code": "RSA",
+      "flag": "🇿🇦",
+      "group": "A",
+      "confederation": "CAF",
+      "is_host": 0,
+      "is_defending_champion": 0
+    },
+    {
+      "id": 3,
+      "name": "South Korea",
+      "short_code": "KOR",
+      "flag": "🇰🇷",
+      "group": "A",
+      "confederation": "AFC",
+      "is_host": 0,
+      "is_defending_champion": 0
+    },
+    {
+      "id": 4,
+      "name": "Czech Republic",
+      "short_code": "CZE",
+      "flag": "🇨🇿",
+      "group": "A",
+      "confederation": "UEFA",
+      "is_host": 0,
+      "is_defending_champion": 0
+    },
+    {
+      "id": 5,
+      "name": "Canada",
+      "short_code": "CAN",
+      "flag": "🇨🇦",
+      "group": "B",
+      "confederation": "CONCACAF",
+      "is_host": 1,
+      "is_defending_champion": 0
+    },
+    {
+      "id": 6,
+      "name": "Italy",
+      "short_code": "ITA",
+      "flag": "🇮🇹",
+      "group": "B",
+      "confederation": "UEFA",
+      "is_host": 0,
+      "is_defending_champion": 0
+    },
+    {
+      "id": 7,
+      "name": "Qatar",
+      "short_code": "QAT",
+      "flag": "🇶🇦",
+      "group": "B",
+      "confederation": "AFC",
+      "is_host": 0,
+      "is_defending_champion": 0
+    },
+    {
+      "id": 8,
+      "name": "Switzerland",
+      "short_code": "SUI",
+      "flag": "🇨🇭",
+      "group": "B",
+      "confederation": "UEFA",
+      "is_host": 0,
+      "is_defending_champion": 0
+    },
+    {
+      "id": 9,
+      "name": "Brazil",
+      "short_code": "BRA",
+      "flag": "🇧🇷",
+      "group": "C",
+      "confederation": "CONMEBOL",
+      "is_host": 0,
+      "is_defending_champion": 0
+    },
+    {
+      "id": 10,
+      "name": "Morocco",
+      "short_code": "MAR",
+      "flag": "🇲🇦",
+      "group": "C",
+      "confederation": "CAF",
+      "is_host": 0,
+      "is_defending_champion": 0
+    },
+    {
+      "id": 11,
+      "name": "Haiti",
+      "short_code": "HAI",
+      "flag": "🇭🇹",
+      "group": "C",
+      "confederation": "CONCACAF",
+      "is_host": 0,
+      "is_defending_champion": 0
+    },
+    {
+      "id": 12,
+      "name": "Scotland",
+      "short_code": "SCO",
+      "flag": "🏴󠁧󠁢󠁳󠁣󠁴󠁿",
+      "group": "C",
+      "confederation": "UEFA",
+      "is_host": 0,
+      "is_defending_champion": 0
+    },
+    {
+      "id": 13,
+      "name": "United States",
+      "short_code": "USA",
+      "flag": "🇺🇸",
+      "group": "D",
+      "confederation": "CONCACAF",
+      "is_host": 1,
+      "is_defending_champion": 0
+    },
+    {
+      "id": 14,
+      "name": "Paraguay",
+      "short_code": "PAR",
+      "flag": "🇵🇾",
+      "group": "D",
+      "confederation": "CONMEBOL",
+      "is_host": 0,
+      "is_defending_champion": 0
+    },
+    {
+      "id": 15,
+      "name": "Australia",
+      "short_code": "AUS",
+      "flag": "🇦🇺",
+      "group": "D",
+      "confederation": "AFC",
+      "is_host": 0,
+      "is_defending_champion": 0
+    },
+    {
+      "id": 16,
+      "name": "Türkiye",
+      "short_code": "TUR",
+      "flag": "🇹🇷",
+      "group": "D",
+      "confederation": "UEFA",
+      "is_host": 0,
+      "is_defending_champion": 0
+    },
+    {
+      "id": 17,
+      "name": "Germany",
+      "short_code": "GER",
+      "flag": "🇩🇪",
+      "group": "E",
+      "confederation": "UEFA",
+      "is_host": 0,
+      "is_defending_champion": 0
+    },
+    {
+      "id": 18,
+      "name": "Curaçao",
+      "short_code": "CUW",
+      "flag": "🇨🇼",
+      "group": "E",
+      "confederation": "CONCACAF",
+      "is_host": 0,
+      "is_defending_champion": 0
+    },
+    {
+      "id": 19,
+      "name": "Ivory Coast",
+      "short_code": "CIV",
+      "flag": "🇨🇮",
+      "group": "E",
+      "confederation": "CAF",
+      "is_host": 0,
+      "is_defending_champion": 0
+    },
+    {
+      "id": 20,
+      "name": "Ecuador",
+      "short_code": "ECU",
+      "flag": "🇪🇨",
+      "group": "E",
+      "confederation": "CONMEBOL",
+      "is_host": 0,
+      "is_defending_champion": 0
+    },
+    {
+      "id": 21,
+      "name": "Netherlands",
+      "short_code": "NED",
+      "flag": "🇳🇱",
+      "group": "F",
+      "confederation": "UEFA",
+      "is_host": 0,
+      "is_defending_champion": 0
+    },
+    {
+      "id": 22,
+      "name": "Japan",
+      "short_code": "JPN",
+      "flag": "🇯🇵",
+      "group": "F",
+      "confederation": "AFC",
+      "is_host": 0,
+      "is_defending_champion": 0
+    },
+    {
+      "id": 23,
+      "name": "Poland",
+      "short_code": "POL",
+      "flag": "🇵🇱",
+      "group": "F",
+      "confederation": "UEFA",
+      "is_host": 0,
+      "is_defending_champion": 0
+    },
+    {
+      "id": 24,
+      "name": "Tunisia",
+      "short_code": "TUN",
+      "flag": "🇹🇳",
+      "group": "F",
+      "confederation": "CAF",
+      "is_host": 0,
+      "is_defending_champion": 0
+    },
+    {
+      "id": 25,
+      "name": "Belgium",
+      "short_code": "BEL",
+      "flag": "🇧🇪",
+      "group": "G",
+      "confederation": "UEFA",
+      "is_host": 0,
+      "is_defending_champion": 0
+    },
+    {
+      "id": 26,
+      "name": "Egypt",
+      "short_code": "EGY",
+      "flag": "🇪🇬",
+      "group": "G",
+      "confederation": "CAF",
+      "is_host": 0,
+      "is_defending_champion": 0
+    },
+    {
+      "id": 27,
+      "name": "Iran",
+      "short_code": "IRN",
+      "flag": "🇮🇷",
+      "group": "G",
+      "confederation": "AFC",
+      "is_host": 0,
+      "is_defending_champion": 0
+    },
+    {
+      "id": 28,
+      "name": "New Zealand",
+      "short_code": "NZL",
+      "flag": "🇳🇿",
+      "group": "G",
+      "confederation": "OFC",
+      "is_host": 0,
+      "is_defending_champion": 0
+    },
+    {
+      "id": 29,
+      "name": "Spain",
+      "short_code": "ESP",
+      "flag": "🇪🇸",
+      "group": "H",
+      "confederation": "UEFA",
+      "is_host": 0,
+      "is_defending_champion": 0
+    },
+    {
+      "id": 30,
+      "name": "Cape Verde",
+      "short_code": "CPV",
+      "flag": "🇨🇻",
+      "group": "H",
+      "confederation": "CAF",
+      "is_host": 0,
+      "is_defending_champion": 0
+    },
+    {
+      "id": 31,
+      "name": "Saudi Arabia",
+      "short_code": "KSA",
+      "flag": "🇸🇦",
+      "group": "H",
+      "confederation": "AFC",
+      "is_host": 0,
+      "is_defending_champion": 0
+    },
+    {
+      "id": 32,
+      "name": "Uruguay",
+      "short_code": "URU",
+      "flag": "🇺🇾",
+      "group": "H",
+      "confederation": "CONMEBOL",
+      "is_host": 0,
+      "is_defending_champion": 0
+    },
+    {
+      "id": 33,
+      "name": "France",
+      "short_code": "FRA",
+      "flag": "🇫🇷",
+      "group": "I",
+      "confederation": "UEFA",
+      "is_host": 0,
+      "is_defending_champion": 0
+    },
+    {
+      "id": 34,
+      "name": "Senegal",
+      "short_code": "SEN",
+      "flag": "🇸🇳",
+      "group": "I",
+      "confederation": "CAF",
+      "is_host": 0,
+      "is_defending_champion": 0
+    },
+    {
+      "id": 35,
+      "name": "Iraq",
+      "short_code": "IRQ",
+      "flag": "🇮🇶",
+      "group": "I",
+      "confederation": "AFC",
+      "is_host": 0,
+      "is_defending_champion": 0
+    },
+    {
+      "id": 36,
+      "name": "Norway",
+      "short_code": "NOR",
+      "flag": "🇳🇴",
+      "group": "I",
+      "confederation": "UEFA",
+      "is_host": 0,
+      "is_defending_champion": 0
+    },
+    {
+      "id": 37,
+      "name": "Argentina",
+      "short_code": "ARG",
+      "flag": "🇦🇷",
+      "group": "J",
+      "confederation": "CONMEBOL",
+      "is_host": 0,
+      "is_defending_champion": 1
+    },
+    {
+      "id": 38,
+      "name": "Algeria",
+      "short_code": "ALG",
+      "flag": "🇩🇿",
+      "group": "J",
+      "confederation": "CAF",
+      "is_host": 0,
+      "is_defending_champion": 0
+    },
+    {
+      "id": 39,
+      "name": "Austria",
+      "short_code": "AUT",
+      "flag": "🇦🇹",
+      "group": "J",
+      "confederation": "UEFA",
+      "is_host": 0,
+      "is_defending_champion": 0
+    },
+    {
+      "id": 40,
+      "name": "Jordan",
+      "short_code": "JOR",
+      "flag": "🇯🇴",
+      "group": "J",
+      "confederation": "AFC",
+      "is_host": 0,
+      "is_defending_champion": 0
+    },
+    {
+      "id": 41,
+      "name": "Portugal",
+      "short_code": "POR",
+      "flag": "🇵🇹",
+      "group": "K",
+      "confederation": "UEFA",
+      "is_host": 0,
+      "is_defending_champion": 0
+    },
+    {
+      "id": 42,
+      "name": "DR Congo",
+      "short_code": "COD",
+      "flag": "🇨🇩",
+      "group": "K",
+      "confederation": "CAF",
+      "is_host": 0,
+      "is_defending_champion": 0
+    },
+    {
+      "id": 43,
+      "name": "Uzbekistan",
+      "short_code": "UZB",
+      "flag": "🇺🇿",
+      "group": "K",
+      "confederation": "AFC",
+      "is_host": 0,
+      "is_defending_champion": 0
+    },
+    {
+      "id": 44,
+      "name": "Colombia",
+      "short_code": "COL",
+      "flag": "🇨🇴",
+      "group": "K",
+      "confederation": "CONMEBOL",
+      "is_host": 0,
+      "is_defending_champion": 0
+    },
+    {
+      "id": 45,
+      "name": "England",
+      "short_code": "ENG",
+      "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+      "group": "L",
+      "confederation": "UEFA",
+      "is_host": 0,
+      "is_defending_champion": 0
+    },
+    {
+      "id": 46,
+      "name": "Croatia",
+      "short_code": "CRO",
+      "flag": "🇭🇷",
+      "group": "L",
+      "confederation": "UEFA",
+      "is_host": 0,
+      "is_defending_champion": 0
+    },
+    {
+      "id": 47,
+      "name": "Ghana",
+      "short_code": "GHA",
+      "flag": "🇬🇭",
+      "group": "L",
+      "confederation": "CAF",
+      "is_host": 0,
+      "is_defending_champion": 0
+    },
+    {
+      "id": 48,
+      "name": "Panama",
+      "short_code": "PAN",
+      "flag": "🇵🇦",
+      "group": "L",
+      "confederation": "CONCACAF",
+      "is_host": 0,
+      "is_defending_champion": 0
+    }
+  ],
+  "matches": [
+    {
+      "id": 1,
+      "match_number": 1,
+      "stage": "Group Stage MD1",
+      "group": "A",
+      "home_team_id": 1,
+      "away_team_id": 2,
+      "home_placeholder": null,
+      "away_placeholder": null,
+      "venue_id": 1,
+      "match_date": "2026-06-11",
+      "match_time_utc": "01:00",
+      "home_score": null,
+      "away_score": null,
+      "status": "scheduled",
+      "minute": null
+    },
+    {
+      "id": 3,
+      "match_number": 3,
+      "stage": "Group Stage MD1",
+      "group": "B",
+      "home_team_id": 5,
+      "away_team_id": 6,
+      "home_placeholder": null,
+      "away_placeholder": null,
+      "venue_id": 4,
+      "match_date": "2026-06-12",
+      "match_time_utc": "01:00",
+      "home_score": null,
+      "away_score": null,
+      "status": "scheduled",
+      "minute": null
+    },
+    {
+      "id": 2,
+      "match_number": 2,
+      "stage": "Group Stage MD1",
+      "group": "A",
+      "home_team_id": 3,
+      "away_team_id": 4,
+      "home_placeholder": null,
+      "away_placeholder": null,
+      "venue_id": 2,
+      "match_date": "2026-06-12",
+      "match_time_utc": "08:00",
+      "home_score": null,
+      "away_score": null,
+      "status": "scheduled",
+      "minute": null
+    },
+    {
+      "id": 5,
+      "match_number": 5,
+      "stage": "Group Stage MD1",
+      "group": "B",
+      "home_team_id": 7,
+      "away_team_id": 8,
+      "home_placeholder": null,
+      "away_placeholder": null,
+      "venue_id": 14,
+      "match_date": "2026-06-13",
+      "match_time_utc": "01:00",
+      "home_score": null,
+      "away_score": null,
+      "status": "scheduled",
+      "minute": null
+    },
+    {
+      "id": 6,
+      "match_number": 6,
+      "stage": "Group Stage MD1",
+      "group": "C",
+      "home_team_id": 9,
+      "away_team_id": 10,
+      "home_placeholder": null,
+      "away_placeholder": null,
+      "venue_id": 6,
+      "match_date": "2026-06-13",
+      "match_time_utc": "04:00",
+      "home_score": null,
+      "away_score": null,
+      "status": "scheduled",
+      "minute": null
+    },
+    {
+      "id": 4,
+      "match_number": 4,
+      "stage": "Group Stage MD1",
+      "group": "D",
+      "home_team_id": 13,
+      "away_team_id": 14,
+      "home_placeholder": null,
+      "away_placeholder": null,
+      "venue_id": 7,
+      "match_date": "2026-06-13",
+      "match_time_utc": "07:00",
+      "home_score": null,
+      "away_score": null,
+      "status": "scheduled",
+      "minute": null
+    },
+    {
+      "id": 7,
+      "match_number": 7,
+      "stage": "Group Stage MD1",
+      "group": "C",
+      "home_team_id": 11,
+      "away_team_id": 12,
+      "home_placeholder": null,
+      "away_placeholder": null,
+      "venue_id": 16,
+      "match_date": "2026-06-14",
+      "match_time_utc": "07:00",
+      "home_score": null,
+      "away_score": null,
+      "status": "scheduled",
+      "minute": null
+    },
+    {
+      "id": 8,
+      "match_number": 8,
+      "stage": "Group Stage MD1",
+      "group": "D",
+      "home_team_id": 15,
+      "away_team_id": 16,
+      "home_placeholder": null,
+      "away_placeholder": null,
+      "venue_id": 5,
+      "match_date": "2026-06-14",
+      "match_time_utc": "10:00",
+      "home_score": null,
+      "away_score": null,
+      "status": "scheduled",
+      "minute": null
+    },
+    {
+      "id": 9,
+      "match_number": 9,
+      "stage": "Group Stage MD1",
+      "group": "E",
+      "home_team_id": 17,
+      "away_team_id": 18,
+      "home_placeholder": null,
+      "away_placeholder": null,
+      "venue_id": 10,
+      "match_date": "2026-06-14",
+      "match_time_utc": "23:00",
+      "home_score": null,
+      "away_score": null,
+      "status": "scheduled",
+      "minute": null
+    },
+    {
+      "id": 10,
+      "match_number": 10,
+      "stage": "Group Stage MD1",
+      "group": "F",
+      "home_team_id": 21,
+      "away_team_id": 22,
+      "home_placeholder": null,
+      "away_placeholder": null,
+      "venue_id": 8,
+      "match_date": "2026-06-15",
+      "match_time_utc": "02:00",
+      "home_score": null,
+      "away_score": null,
+      "status": "scheduled",
+      "minute": null
+    },
+    {
+      "id": 11,
+      "match_number": 11,
+      "stage": "Group Stage MD1",
+      "group": "E",
+      "home_team_id": 19,
+      "away_team_id": 20,
+      "home_placeholder": null,
+      "away_placeholder": null,
+      "venue_id": 11,
+      "match_date": "2026-06-15",
+      "match_time_utc": "05:00",
+      "home_score": null,
+      "away_score": null,
+      "status": "scheduled",
+      "minute": null
+    },
+    {
+      "id": 12,
+      "match_number": 12,
+      "stage": "Group Stage MD1",
+      "group": "F",
+      "home_team_id": 23,
+      "away_team_id": 24,
+      "home_placeholder": null,
+      "away_placeholder": null,
+      "venue_id": 3,
+      "match_date": "2026-06-15",
+      "match_time_utc": "08:00",
+      "home_score": null,
+      "away_score": null,
+      "status": "scheduled",
+      "minute": null
+    },
+    {
+      "id": 13,
+      "match_number": 13,
+      "stage": "Group Stage MD1",
+      "group": "H",
+      "home_team_id": 29,
+      "away_team_id": 30,
+      "home_placeholder": null,
+      "away_placeholder": null,
+      "venue_id": 9,
+      "match_date": "2026-06-15",
+      "match_time_utc": "22:00",
+      "home_score": null,
+      "away_score": null,
+      "status": "scheduled",
+      "minute": null
+    },
+    {
+      "id": 14,
+      "match_number": 14,
+      "stage": "Group Stage MD1",
+      "group": "G",
+      "home_team_id": 25,
+      "away_team_id": 26,
+      "home_placeholder": null,
+      "away_placeholder": null,
+      "venue_id": 13,
+      "match_date": "2026-06-16",
+      "match_time_utc": "01:00",
+      "home_score": null,
+      "away_score": null,
+      "status": "scheduled",
+      "minute": null
+    },
+    {
+      "id": 15,
+      "match_number": 15,
+      "stage": "Group Stage MD1",
+      "group": "H",
+      "home_team_id": 31,
+      "away_team_id": 32,
+      "home_placeholder": null,
+      "away_placeholder": null,
+      "venue_id": 12,
+      "match_date": "2026-06-16",
+      "match_time_utc": "04:00",
+      "home_score": null,
+      "away_score": null,
+      "status": "scheduled",
+      "minute": null
+    },
+    {
+      "id": 16,
+      "match_number": 16,
+      "stage": "Group Stage MD1",
+      "group": "G",
+      "home_team_id": 27,
+      "away_team_id": 28,
+      "home_placeholder": null,
+      "away_placeholder": null,
+      "venue_id": 7,
+      "match_date": "2026-06-16",
+      "match_time_utc": "07:00",
+      "home_score": null,
+      "away_score": null,
+      "status": "scheduled",
+      "minute": null
+    },
+    {
+      "id": 17,
+      "match_number": 17,
+      "stage": "Group Stage MD1",
+      "group": "I",
+      "home_team_id": 33,
+      "away_team_id": 34,
+      "home_placeholder": null,
+      "away_placeholder": null,
+      "venue_id": 6,
+      "match_date": "2026-06-17",
+      "match_time_utc": "01:00",
+      "home_score": null,
+      "away_score": null,
+      "status": "scheduled",
+      "minute": null
+    },
+    {
+      "id": 18,
+      "match_number": 18,
+      "stage": "Group Stage MD1",
+      "group": "I",
+      "home_team_id": 35,
+      "away_team_id": 36,
+      "home_placeholder": null,
+      "away_placeholder": null,
+      "venue_id": 16,
+      "match_date": "2026-06-17",
+      "match_time_utc": "04:00",
+      "home_score": null,
+      "away_score": null,
+      "status": "scheduled",
+      "minute": null
+    },
+    {
+      "id": 19,
+      "match_number": 19,
+      "stage": "Group Stage MD1",
+      "group": "J",
+      "home_team_id": 37,
+      "away_team_id": 38,
+      "home_placeholder": null,
+      "away_placeholder": null,
+      "venue_id": 15,
+      "match_date": "2026-06-17",
+      "match_time_utc": "07:00",
+      "home_score": null,
+      "away_score": null,
+      "status": "scheduled",
+      "minute": null
+    },
+    {
+      "id": 20,
+      "match_number": 20,
+      "stage": "Group Stage MD1",
+      "group": "J",
+      "home_team_id": 39,
+      "away_team_id": 40,
+      "home_placeholder": null,
+      "away_placeholder": null,
+      "venue_id": 14,
+      "match_date": "2026-06-17",
+      "match_time_utc": "10:00",
+      "home_score": null,
+      "away_score": null,
+      "status": "scheduled",
+      "minute": null
+    },
+    {
+      "id": 21,
+      "match_number": 21,
+      "stage": "Group Stage MD1",
+      "group": "K",
+      "home_team_id": 41,
+      "away_team_id": 42,
+      "home_placeholder": null,
+      "away_placeholder": null,
+      "venue_id": 10,
+      "match_date": "2026-06-17",
+      "match_time_utc": "23:00",
+      "home_score": null,
+      "away_score": null,
+      "status": "scheduled",
+      "minute": null
+    },
+    {
+      "id": 22,
+      "match_number": 22,
+      "stage": "Group Stage MD1",
+      "group": "L",
+      "home_team_id": 45,
+      "away_team_id": 46,
+      "home_placeholder": null,
+      "away_placeholder": null,
+      "venue_id": 8,
+      "match_date": "2026-06-18",
+      "match_time_utc": "02:00",
+      "home_score": null,
+      "away_score": null,
+      "status": "scheduled",
+      "minute": null
+    },
+    {
+      "id": 23,
+      "match_number": 23,
+      "stage": "Group Stage MD1",
+      "group": "K",
+      "home_team_id": 43,
+      "away_team_id": 44,
+      "home_placeholder": null,
+      "away_placeholder": null,
+      "venue_id": 11,
+      "match_date": "2026-06-18",
+      "match_time_utc": "05:00",
+      "home_score": null,
+      "away_score": null,
+      "status": "scheduled",
+      "minute": null
+    },
+    {
+      "id": 24,
+      "match_number": 24,
+      "stage": "Group Stage MD1",
+      "group": "L",
+      "home_team_id": 47,
+      "away_team_id": 48,
+      "home_placeholder": null,
+      "away_placeholder": null,
+      "venue_id": 9,
+      "match_date": "2026-06-18",
+      "match_time_utc": "08:00",
+      "home_score": null,
+      "away_score": null,
+      "status": "scheduled",
+      "minute": null
+    },
+    {
+      "id": 25,
+      "match_number": 89,
+      "stage": "Round of 32",
+      "group": null,
+      "home_team_id": null,
+      "away_team_id": null,
+      "home_placeholder": "1A",
+      "away_placeholder": "2B/3rd",
+      "venue_id": 8,
+      "match_date": "2026-06-28",
+      "match_time_utc": null,
+      "home_score": null,
+      "away_score": null,
+      "status": "scheduled",
+      "minute": null
+    },
+    {
+      "id": 26,
+      "match_number": 90,
+      "stage": "Round of 32",
+      "group": null,
+      "home_team_id": null,
+      "away_team_id": null,
+      "home_placeholder": "1B",
+      "away_placeholder": "2C/3rd",
+      "venue_id": 6,
+      "match_date": "2026-06-28",
+      "match_time_utc": null,
+      "home_score": null,
+      "away_score": null,
+      "status": "scheduled",
+      "minute": null
+    },
+    {
+      "id": 27,
+      "match_number": 97,
+      "stage": "Round of 16",
+      "group": null,
+      "home_team_id": null,
+      "away_team_id": null,
+      "home_placeholder": "W89",
+      "away_placeholder": "W90",
+      "venue_id": 8,
+      "match_date": "2026-07-04",
+      "match_time_utc": null,
+      "home_score": null,
+      "away_score": null,
+      "status": "scheduled",
+      "minute": null
+    },
+    {
+      "id": 28,
+      "match_number": 101,
+      "stage": "Quarter-final",
+      "group": null,
+      "home_team_id": null,
+      "away_team_id": null,
+      "home_placeholder": "W-QF1",
+      "away_placeholder": "W-QF2",
+      "venue_id": 7,
+      "match_date": "2026-07-09",
+      "match_time_utc": null,
+      "home_score": null,
+      "away_score": null,
+      "status": "scheduled",
+      "minute": null
+    },
+    {
+      "id": 29,
+      "match_number": 102,
+      "stage": "Quarter-final",
+      "group": null,
+      "home_team_id": null,
+      "away_team_id": null,
+      "home_placeholder": "W-QF3",
+      "away_placeholder": "W-QF4",
+      "venue_id": 8,
+      "match_date": "2026-07-10",
+      "match_time_utc": null,
+      "home_score": null,
+      "away_score": null,
+      "status": "scheduled",
+      "minute": null
+    },
+    {
+      "id": 30,
+      "match_number": 103,
+      "stage": "Semi-final",
+      "group": null,
+      "home_team_id": null,
+      "away_team_id": null,
+      "home_placeholder": "W-SF1",
+      "away_placeholder": "W-SF2",
+      "venue_id": 8,
+      "match_date": "2026-07-14",
+      "match_time_utc": null,
+      "home_score": null,
+      "away_score": null,
+      "status": "scheduled",
+      "minute": null
+    },
+    {
+      "id": 31,
+      "match_number": 104,
+      "stage": "Semi-final",
+      "group": null,
+      "home_team_id": null,
+      "away_team_id": null,
+      "home_placeholder": "W-SF3",
+      "away_placeholder": "W-SF4",
+      "venue_id": 7,
+      "match_date": "2026-07-15",
+      "match_time_utc": null,
+      "home_score": null,
+      "away_score": null,
+      "status": "scheduled",
+      "minute": null
+    },
+    {
+      "id": 32,
+      "match_number": 105,
+      "stage": "Third-place",
+      "group": null,
+      "home_team_id": null,
+      "away_team_id": null,
+      "home_placeholder": "L-SF1",
+      "away_placeholder": "L-SF2",
+      "venue_id": 12,
+      "match_date": "2026-07-18",
+      "match_time_utc": null,
+      "home_score": null,
+      "away_score": null,
+      "status": "scheduled",
+      "minute": null
+    },
+    {
+      "id": 33,
+      "match_number": 106,
+      "stage": "Final",
+      "group": null,
+      "home_team_id": null,
+      "away_team_id": null,
+      "home_placeholder": "W-SF1",
+      "away_placeholder": "W-SF2",
+      "venue_id": 6,
+      "match_date": "2026-07-19",
+      "match_time_utc": null,
+      "home_score": null,
+      "away_score": null,
+      "status": "scheduled",
+      "minute": null
+    }
+  ],
+  "standings": [
+    {
+      "team_id": 1,
+      "group": "A",
+      "played": 0,
+      "won": 0,
+      "drawn": 0,
+      "lost": 0,
+      "goals_for": 0,
+      "goals_against": 0,
+      "goal_difference": 0,
+      "points": 0
+    },
+    {
+      "team_id": 2,
+      "group": "A",
+      "played": 0,
+      "won": 0,
+      "drawn": 0,
+      "lost": 0,
+      "goals_for": 0,
+      "goals_against": 0,
+      "goal_difference": 0,
+      "points": 0
+    },
+    {
+      "team_id": 3,
+      "group": "A",
+      "played": 0,
+      "won": 0,
+      "drawn": 0,
+      "lost": 0,
+      "goals_for": 0,
+      "goals_against": 0,
+      "goal_difference": 0,
+      "points": 0
+    },
+    {
+      "team_id": 4,
+      "group": "A",
+      "played": 0,
+      "won": 0,
+      "drawn": 0,
+      "lost": 0,
+      "goals_for": 0,
+      "goals_against": 0,
+      "goal_difference": 0,
+      "points": 0
+    },
+    {
+      "team_id": 5,
+      "group": "B",
+      "played": 0,
+      "won": 0,
+      "drawn": 0,
+      "lost": 0,
+      "goals_for": 0,
+      "goals_against": 0,
+      "goal_difference": 0,
+      "points": 0
+    },
+    {
+      "team_id": 6,
+      "group": "B",
+      "played": 0,
+      "won": 0,
+      "drawn": 0,
+      "lost": 0,
+      "goals_for": 0,
+      "goals_against": 0,
+      "goal_difference": 0,
+      "points": 0
+    },
+    {
+      "team_id": 7,
+      "group": "B",
+      "played": 0,
+      "won": 0,
+      "drawn": 0,
+      "lost": 0,
+      "goals_for": 0,
+      "goals_against": 0,
+      "goal_difference": 0,
+      "points": 0
+    },
+    {
+      "team_id": 8,
+      "group": "B",
+      "played": 0,
+      "won": 0,
+      "drawn": 0,
+      "lost": 0,
+      "goals_for": 0,
+      "goals_against": 0,
+      "goal_difference": 0,
+      "points": 0
+    },
+    {
+      "team_id": 9,
+      "group": "C",
+      "played": 0,
+      "won": 0,
+      "drawn": 0,
+      "lost": 0,
+      "goals_for": 0,
+      "goals_against": 0,
+      "goal_difference": 0,
+      "points": 0
+    },
+    {
+      "team_id": 10,
+      "group": "C",
+      "played": 0,
+      "won": 0,
+      "drawn": 0,
+      "lost": 0,
+      "goals_for": 0,
+      "goals_against": 0,
+      "goal_difference": 0,
+      "points": 0
+    },
+    {
+      "team_id": 11,
+      "group": "C",
+      "played": 0,
+      "won": 0,
+      "drawn": 0,
+      "lost": 0,
+      "goals_for": 0,
+      "goals_against": 0,
+      "goal_difference": 0,
+      "points": 0
+    },
+    {
+      "team_id": 12,
+      "group": "C",
+      "played": 0,
+      "won": 0,
+      "drawn": 0,
+      "lost": 0,
+      "goals_for": 0,
+      "goals_against": 0,
+      "goal_difference": 0,
+      "points": 0
+    },
+    {
+      "team_id": 13,
+      "group": "D",
+      "played": 0,
+      "won": 0,
+      "drawn": 0,
+      "lost": 0,
+      "goals_for": 0,
+      "goals_against": 0,
+      "goal_difference": 0,
+      "points": 0
+    },
+    {
+      "team_id": 14,
+      "group": "D",
+      "played": 0,
+      "won": 0,
+      "drawn": 0,
+      "lost": 0,
+      "goals_for": 0,
+      "goals_against": 0,
+      "goal_difference": 0,
+      "points": 0
+    },
+    {
+      "team_id": 15,
+      "group": "D",
+      "played": 0,
+      "won": 0,
+      "drawn": 0,
+      "lost": 0,
+      "goals_for": 0,
+      "goals_against": 0,
+      "goal_difference": 0,
+      "points": 0
+    },
+    {
+      "team_id": 16,
+      "group": "D",
+      "played": 0,
+      "won": 0,
+      "drawn": 0,
+      "lost": 0,
+      "goals_for": 0,
+      "goals_against": 0,
+      "goal_difference": 0,
+      "points": 0
+    },
+    {
+      "team_id": 17,
+      "group": "E",
+      "played": 0,
+      "won": 0,
+      "drawn": 0,
+      "lost": 0,
+      "goals_for": 0,
+      "goals_against": 0,
+      "goal_difference": 0,
+      "points": 0
+    },
+    {
+      "team_id": 18,
+      "group": "E",
+      "played": 0,
+      "won": 0,
+      "drawn": 0,
+      "lost": 0,
+      "goals_for": 0,
+      "goals_against": 0,
+      "goal_difference": 0,
+      "points": 0
+    },
+    {
+      "team_id": 19,
+      "group": "E",
+      "played": 0,
+      "won": 0,
+      "drawn": 0,
+      "lost": 0,
+      "goals_for": 0,
+      "goals_against": 0,
+      "goal_difference": 0,
+      "points": 0
+    },
+    {
+      "team_id": 20,
+      "group": "E",
+      "played": 0,
+      "won": 0,
+      "drawn": 0,
+      "lost": 0,
+      "goals_for": 0,
+      "goals_against": 0,
+      "goal_difference": 0,
+      "points": 0
+    },
+    {
+      "team_id": 21,
+      "group": "F",
+      "played": 0,
+      "won": 0,
+      "drawn": 0,
+      "lost": 0,
+      "goals_for": 0,
+      "goals_against": 0,
+      "goal_difference": 0,
+      "points": 0
+    },
+    {
+      "team_id": 22,
+      "group": "F",
+      "played": 0,
+      "won": 0,
+      "drawn": 0,
+      "lost": 0,
+      "goals_for": 0,
+      "goals_against": 0,
+      "goal_difference": 0,
+      "points": 0
+    },
+    {
+      "team_id": 23,
+      "group": "F",
+      "played": 0,
+      "won": 0,
+      "drawn": 0,
+      "lost": 0,
+      "goals_for": 0,
+      "goals_against": 0,
+      "goal_difference": 0,
+      "points": 0
+    },
+    {
+      "team_id": 24,
+      "group": "F",
+      "played": 0,
+      "won": 0,
+      "drawn": 0,
+      "lost": 0,
+      "goals_for": 0,
+      "goals_against": 0,
+      "goal_difference": 0,
+      "points": 0
+    },
+    {
+      "team_id": 25,
+      "group": "G",
+      "played": 0,
+      "won": 0,
+      "drawn": 0,
+      "lost": 0,
+      "goals_for": 0,
+      "goals_against": 0,
+      "goal_difference": 0,
+      "points": 0
+    },
+    {
+      "team_id": 26,
+      "group": "G",
+      "played": 0,
+      "won": 0,
+      "drawn": 0,
+      "lost": 0,
+      "goals_for": 0,
+      "goals_against": 0,
+      "goal_difference": 0,
+      "points": 0
+    },
+    {
+      "team_id": 27,
+      "group": "G",
+      "played": 0,
+      "won": 0,
+      "drawn": 0,
+      "lost": 0,
+      "goals_for": 0,
+      "goals_against": 0,
+      "goal_difference": 0,
+      "points": 0
+    },
+    {
+      "team_id": 28,
+      "group": "G",
+      "played": 0,
+      "won": 0,
+      "drawn": 0,
+      "lost": 0,
+      "goals_for": 0,
+      "goals_against": 0,
+      "goal_difference": 0,
+      "points": 0
+    },
+    {
+      "team_id": 29,
+      "group": "H",
+      "played": 0,
+      "won": 0,
+      "drawn": 0,
+      "lost": 0,
+      "goals_for": 0,
+      "goals_against": 0,
+      "goal_difference": 0,
+      "points": 0
+    },
+    {
+      "team_id": 30,
+      "group": "H",
+      "played": 0,
+      "won": 0,
+      "drawn": 0,
+      "lost": 0,
+      "goals_for": 0,
+      "goals_against": 0,
+      "goal_difference": 0,
+      "points": 0
+    },
+    {
+      "team_id": 31,
+      "group": "H",
+      "played": 0,
+      "won": 0,
+      "drawn": 0,
+      "lost": 0,
+      "goals_for": 0,
+      "goals_against": 0,
+      "goal_difference": 0,
+      "points": 0
+    },
+    {
+      "team_id": 32,
+      "group": "H",
+      "played": 0,
+      "won": 0,
+      "drawn": 0,
+      "lost": 0,
+      "goals_for": 0,
+      "goals_against": 0,
+      "goal_difference": 0,
+      "points": 0
+    },
+    {
+      "team_id": 33,
+      "group": "I",
+      "played": 0,
+      "won": 0,
+      "drawn": 0,
+      "lost": 0,
+      "goals_for": 0,
+      "goals_against": 0,
+      "goal_difference": 0,
+      "points": 0
+    },
+    {
+      "team_id": 34,
+      "group": "I",
+      "played": 0,
+      "won": 0,
+      "drawn": 0,
+      "lost": 0,
+      "goals_for": 0,
+      "goals_against": 0,
+      "goal_difference": 0,
+      "points": 0
+    },
+    {
+      "team_id": 35,
+      "group": "I",
+      "played": 0,
+      "won": 0,
+      "drawn": 0,
+      "lost": 0,
+      "goals_for": 0,
+      "goals_against": 0,
+      "goal_difference": 0,
+      "points": 0
+    },
+    {
+      "team_id": 36,
+      "group": "I",
+      "played": 0,
+      "won": 0,
+      "drawn": 0,
+      "lost": 0,
+      "goals_for": 0,
+      "goals_against": 0,
+      "goal_difference": 0,
+      "points": 0
+    },
+    {
+      "team_id": 37,
+      "group": "J",
+      "played": 0,
+      "won": 0,
+      "drawn": 0,
+      "lost": 0,
+      "goals_for": 0,
+      "goals_against": 0,
+      "goal_difference": 0,
+      "points": 0
+    },
+    {
+      "team_id": 38,
+      "group": "J",
+      "played": 0,
+      "won": 0,
+      "drawn": 0,
+      "lost": 0,
+      "goals_for": 0,
+      "goals_against": 0,
+      "goal_difference": 0,
+      "points": 0
+    },
+    {
+      "team_id": 39,
+      "group": "J",
+      "played": 0,
+      "won": 0,
+      "drawn": 0,
+      "lost": 0,
+      "goals_for": 0,
+      "goals_against": 0,
+      "goal_difference": 0,
+      "points": 0
+    },
+    {
+      "team_id": 40,
+      "group": "J",
+      "played": 0,
+      "won": 0,
+      "drawn": 0,
+      "lost": 0,
+      "goals_for": 0,
+      "goals_against": 0,
+      "goal_difference": 0,
+      "points": 0
+    },
+    {
+      "team_id": 41,
+      "group": "K",
+      "played": 0,
+      "won": 0,
+      "drawn": 0,
+      "lost": 0,
+      "goals_for": 0,
+      "goals_against": 0,
+      "goal_difference": 0,
+      "points": 0
+    },
+    {
+      "team_id": 42,
+      "group": "K",
+      "played": 0,
+      "won": 0,
+      "drawn": 0,
+      "lost": 0,
+      "goals_for": 0,
+      "goals_against": 0,
+      "goal_difference": 0,
+      "points": 0
+    },
+    {
+      "team_id": 43,
+      "group": "K",
+      "played": 0,
+      "won": 0,
+      "drawn": 0,
+      "lost": 0,
+      "goals_for": 0,
+      "goals_against": 0,
+      "goal_difference": 0,
+      "points": 0
+    },
+    {
+      "team_id": 44,
+      "group": "K",
+      "played": 0,
+      "won": 0,
+      "drawn": 0,
+      "lost": 0,
+      "goals_for": 0,
+      "goals_against": 0,
+      "goal_difference": 0,
+      "points": 0
+    },
+    {
+      "team_id": 45,
+      "group": "L",
+      "played": 0,
+      "won": 0,
+      "drawn": 0,
+      "lost": 0,
+      "goals_for": 0,
+      "goals_against": 0,
+      "goal_difference": 0,
+      "points": 0
+    },
+    {
+      "team_id": 46,
+      "group": "L",
+      "played": 0,
+      "won": 0,
+      "drawn": 0,
+      "lost": 0,
+      "goals_for": 0,
+      "goals_against": 0,
+      "goal_difference": 0,
+      "points": 0
+    },
+    {
+      "team_id": 47,
+      "group": "L",
+      "played": 0,
+      "won": 0,
+      "drawn": 0,
+      "lost": 0,
+      "goals_for": 0,
+      "goals_against": 0,
+      "goal_difference": 0,
+      "points": 0
+    },
+    {
+      "team_id": 48,
+      "group": "L",
+      "played": 0,
+      "won": 0,
+      "drawn": 0,
+      "lost": 0,
+      "goals_for": 0,
+      "goals_against": 0,
+      "goal_difference": 0,
+      "points": 0
+    }
+  ],
+  "players": [
+    {
+      "id": 1,
+      "name": "Kylian Mbappé",
+      "team_id": 33,
+      "position": "Forward",
+      "is_star": 1
+    },
+    {
+      "id": 2,
+      "name": "Ousmane Dembélé",
+      "team_id": 33,
+      "position": "Forward",
+      "is_star": 1
+    },
+    {
+      "id": 3,
+      "name": "William Saliba",
+      "team_id": 33,
+      "position": "Defender",
+      "is_star": 1
+    },
+    {
+      "id": 4,
+      "name": "Michael Olise",
+      "team_id": 33,
+      "position": "Forward",
+      "is_star": 0
+    },
+    {
+      "id": 5,
+      "name": "Marcus Thuram",
+      "team_id": 33,
+      "position": "Forward",
+      "is_star": 0
+    },
+    {
+      "id": 6,
+      "name": "Aurélien Tchouaméni",
+      "team_id": 33,
+      "position": "Midfielder",
+      "is_star": 0
+    },
+    {
+      "id": 7,
+      "name": "Warren Zaïre-Emery",
+      "team_id": 33,
+      "position": "Midfielder",
+      "is_star": 0
+    },
+    {
+      "id": 8,
+      "name": "Jules Koundé",
+      "team_id": 33,
+      "position": "Defender",
+      "is_star": 0
+    },
+    {
+      "id": 9,
+      "name": "Theo Hernández",
+      "team_id": 33,
+      "position": "Defender",
+      "is_star": 0
+    },
+    {
+      "id": 10,
+      "name": "Mike Maignan",
+      "team_id": 33,
+      "position": "Goalkeeper",
+      "is_star": 0
+    },
+    {
+      "id": 11,
+      "name": "Bradley Barcola",
+      "team_id": 33,
+      "position": "Forward",
+      "is_star": 0
+    },
+    {
+      "id": 12,
+      "name": "Lamine Yamal",
+      "team_id": 29,
+      "position": "Forward",
+      "is_star": 1
+    },
+    {
+      "id": 13,
+      "name": "Nico Williams",
+      "team_id": 29,
+      "position": "Forward",
+      "is_star": 1
+    },
+    {
+      "id": 14,
+      "name": "Rodri",
+      "team_id": 29,
+      "position": "Midfielder",
+      "is_star": 1
+    },
+    {
+      "id": 15,
+      "name": "Pedri",
+      "team_id": 29,
+      "position": "Midfielder",
+      "is_star": 1
+    },
+    {
+      "id": 16,
+      "name": "Dani Olmo",
+      "team_id": 29,
+      "position": "Forward",
+      "is_star": 0
+    },
+    {
+      "id": 17,
+      "name": "Gavi",
+      "team_id": 29,
+      "position": "Midfielder",
+      "is_star": 0
+    },
+    {
+      "id": 18,
+      "name": "Fabian Ruiz",
+      "team_id": 29,
+      "position": "Midfielder",
+      "is_star": 0
+    },
+    {
+      "id": 19,
+      "name": "Pau Cubarsí",
+      "team_id": 29,
+      "position": "Defender",
+      "is_star": 0
+    },
+    {
+      "id": 20,
+      "name": "Marc Cucurella",
+      "team_id": 29,
+      "position": "Defender",
+      "is_star": 0
+    },
+    {
+      "id": 21,
+      "name": "Unai Simón",
+      "team_id": 29,
+      "position": "Goalkeeper",
+      "is_star": 0
+    },
+    {
+      "id": 22,
+      "name": "Mikel Oyarzabal",
+      "team_id": 29,
+      "position": "Forward",
+      "is_star": 0
+    },
+    {
+      "id": 23,
+      "name": "Jude Bellingham",
+      "team_id": 45,
+      "position": "Midfielder",
+      "is_star": 1
+    },
+    {
+      "id": 24,
+      "name": "Harry Kane",
+      "team_id": 45,
+      "position": "Forward",
+      "is_star": 1
+    },
+    {
+      "id": 25,
+      "name": "Bukayo Saka",
+      "team_id": 45,
+      "position": "Forward",
+      "is_star": 1
+    },
+    {
+      "id": 26,
+      "name": "Declan Rice",
+      "team_id": 45,
+      "position": "Midfielder",
+      "is_star": 1
+    },
+    {
+      "id": 27,
+      "name": "Marcus Rashford",
+      "team_id": 45,
+      "position": "Forward",
+      "is_star": 0
+    },
+    {
+      "id": 28,
+      "name": "Kobbie Mainoo",
+      "team_id": 45,
+      "position": "Midfielder",
+      "is_star": 0
+    },
+    {
+      "id": 29,
+      "name": "Ollie Watkins",
+      "team_id": 45,
+      "position": "Forward",
+      "is_star": 0
+    },
+    {
+      "id": 30,
+      "name": "Jordan Pickford",
+      "team_id": 45,
+      "position": "Goalkeeper",
+      "is_star": 0
+    },
+    {
+      "id": 31,
+      "name": "Marc Guéhi",
+      "team_id": 45,
+      "position": "Defender",
+      "is_star": 0
+    },
+    {
+      "id": 32,
+      "name": "Eberechi Eze",
+      "team_id": 45,
+      "position": "Midfielder",
+      "is_star": 0
+    },
+    {
+      "id": 33,
+      "name": "Vinícius Jr.",
+      "team_id": 9,
+      "position": "Forward",
+      "is_star": 1
+    },
+    {
+      "id": 34,
+      "name": "Raphinha",
+      "team_id": 9,
+      "position": "Forward",
+      "is_star": 1
+    },
+    {
+      "id": 35,
+      "name": "Bruno Guimarães",
+      "team_id": 9,
+      "position": "Midfielder",
+      "is_star": 1
+    },
+    {
+      "id": 36,
+      "name": "Alisson",
+      "team_id": 9,
+      "position": "Goalkeeper",
+      "is_star": 1
+    },
+    {
+      "id": 37,
+      "name": "Neymar",
+      "team_id": 9,
+      "position": "Forward",
+      "is_star": 1
+    },
+    {
+      "id": 38,
+      "name": "Endrick",
+      "team_id": 9,
+      "position": "Forward",
+      "is_star": 0
+    },
+    {
+      "id": 39,
+      "name": "Martinelli",
+      "team_id": 9,
+      "position": "Forward",
+      "is_star": 0
+    },
+    {
+      "id": 40,
+      "name": "Lucas Paquetá",
+      "team_id": 9,
+      "position": "Midfielder",
+      "is_star": 0
+    },
+    {
+      "id": 41,
+      "name": "Marquinhos",
+      "team_id": 9,
+      "position": "Defender",
+      "is_star": 0
+    },
+    {
+      "id": 42,
+      "name": "Gabriel Magalhães",
+      "team_id": 9,
+      "position": "Defender",
+      "is_star": 0
+    },
+    {
+      "id": 43,
+      "name": "Lionel Messi",
+      "team_id": 37,
+      "position": "Forward",
+      "is_star": 1
+    },
+    {
+      "id": 44,
+      "name": "Julián Álvarez",
+      "team_id": 37,
+      "position": "Forward",
+      "is_star": 1
+    },
+    {
+      "id": 45,
+      "name": "Lautaro Martínez",
+      "team_id": 37,
+      "position": "Forward",
+      "is_star": 1
+    },
+    {
+      "id": 46,
+      "name": "Enzo Fernández",
+      "team_id": 37,
+      "position": "Midfielder",
+      "is_star": 1
+    },
+    {
+      "id": 47,
+      "name": "Alexis Mac Allister",
+      "team_id": 37,
+      "position": "Midfielder",
+      "is_star": 1
+    },
+    {
+      "id": 48,
+      "name": "Emiliano Martínez",
+      "team_id": 37,
+      "position": "Goalkeeper",
+      "is_star": 1
+    },
+    {
+      "id": 49,
+      "name": "Alejandro Garnacho",
+      "team_id": 37,
+      "position": "Forward",
+      "is_star": 0
+    },
+    {
+      "id": 50,
+      "name": "Rodrigo De Paul",
+      "team_id": 37,
+      "position": "Midfielder",
+      "is_star": 0
+    },
+    {
+      "id": 51,
+      "name": "Cristian Romero",
+      "team_id": 37,
+      "position": "Defender",
+      "is_star": 0
+    },
+    {
+      "id": 52,
+      "name": "Lisandro Martínez",
+      "team_id": 37,
+      "position": "Defender",
+      "is_star": 0
+    },
+    {
+      "id": 53,
+      "name": "Florian Wirtz",
+      "team_id": 17,
+      "position": "Midfielder",
+      "is_star": 1
+    },
+    {
+      "id": 54,
+      "name": "Jamal Musiala",
+      "team_id": 17,
+      "position": "Forward",
+      "is_star": 1
+    },
+    {
+      "id": 55,
+      "name": "Kai Havertz",
+      "team_id": 17,
+      "position": "Forward",
+      "is_star": 1
+    },
+    {
+      "id": 56,
+      "name": "Joshua Kimmich",
+      "team_id": 17,
+      "position": "Midfielder",
+      "is_star": 1
+    },
+    {
+      "id": 57,
+      "name": "Antonio Rüdiger",
+      "team_id": 17,
+      "position": "Defender",
+      "is_star": 0
+    },
+    {
+      "id": 58,
+      "name": "Jonathan Tah",
+      "team_id": 17,
+      "position": "Defender",
+      "is_star": 0
+    },
+    {
+      "id": 59,
+      "name": "Manuel Neuer",
+      "team_id": 17,
+      "position": "Goalkeeper",
+      "is_star": 0
+    },
+    {
+      "id": 60,
+      "name": "Leroy Sané",
+      "team_id": 17,
+      "position": "Forward",
+      "is_star": 0
+    },
+    {
+      "id": 61,
+      "name": "Aleksandar Pavlović",
+      "team_id": 17,
+      "position": "Midfielder",
+      "is_star": 0
+    },
+    {
+      "id": 62,
+      "name": "Cristiano Ronaldo",
+      "team_id": 41,
+      "position": "Forward",
+      "is_star": 1
+    },
+    {
+      "id": 63,
+      "name": "Bruno Fernandes",
+      "team_id": 41,
+      "position": "Midfielder",
+      "is_star": 1
+    },
+    {
+      "id": 64,
+      "name": "Bernardo Silva",
+      "team_id": 41,
+      "position": "Midfielder",
+      "is_star": 1
+    },
+    {
+      "id": 65,
+      "name": "Rúben Dias",
+      "team_id": 41,
+      "position": "Defender",
+      "is_star": 1
+    },
+    {
+      "id": 66,
+      "name": "Rafael Leão",
+      "team_id": 41,
+      "position": "Forward",
+      "is_star": 0
+    },
+    {
+      "id": 67,
+      "name": "Gonçalo Ramos",
+      "team_id": 41,
+      "position": "Forward",
+      "is_star": 0
+    },
+    {
+      "id": 68,
+      "name": "João Neves",
+      "team_id": 41,
+      "position": "Midfielder",
+      "is_star": 0
+    },
+    {
+      "id": 69,
+      "name": "Vitinha",
+      "team_id": 41,
+      "position": "Midfielder",
+      "is_star": 0
+    },
+    {
+      "id": 70,
+      "name": "Diogo Costa",
+      "team_id": 41,
+      "position": "Goalkeeper",
+      "is_star": 0
+    },
+    {
+      "id": 71,
+      "name": "Takefusa Kubo",
+      "team_id": 22,
+      "position": "Midfielder",
+      "is_star": 1
+    },
+    {
+      "id": 72,
+      "name": "Wataru Endo",
+      "team_id": 22,
+      "position": "Midfielder",
+      "is_star": 0
+    },
+    {
+      "id": 73,
+      "name": "Daichi Kamada",
+      "team_id": 22,
+      "position": "Midfielder",
+      "is_star": 0
+    },
+    {
+      "id": 74,
+      "name": "Ritsu Doan",
+      "team_id": 22,
+      "position": "Midfielder",
+      "is_star": 0
+    },
+    {
+      "id": 75,
+      "name": "Daizen Maeda",
+      "team_id": 22,
+      "position": "Forward",
+      "is_star": 0
+    },
+    {
+      "id": 76,
+      "name": "Ayase Ueda",
+      "team_id": 22,
+      "position": "Forward",
+      "is_star": 0
+    },
+    {
+      "id": 77,
+      "name": "Ko Itakura",
+      "team_id": 22,
+      "position": "Defender",
+      "is_star": 0
+    },
+    {
+      "id": 78,
+      "name": "Takehiro Tomiyasu",
+      "team_id": 22,
+      "position": "Defender",
+      "is_star": 0
+    },
+    {
+      "id": 79,
+      "name": "Ao Tanaka",
+      "team_id": 22,
+      "position": "Midfielder",
+      "is_star": 0
+    },
+    {
+      "id": 80,
+      "name": "Virgil van Dijk",
+      "team_id": 21,
+      "position": "Defender",
+      "is_star": 1
+    },
+    {
+      "id": 81,
+      "name": "Frenkie de Jong",
+      "team_id": 21,
+      "position": "Midfielder",
+      "is_star": 1
+    },
+    {
+      "id": 82,
+      "name": "Cody Gakpo",
+      "team_id": 21,
+      "position": "Forward",
+      "is_star": 1
+    },
+    {
+      "id": 83,
+      "name": "Ryan Gravenberch",
+      "team_id": 21,
+      "position": "Midfielder",
+      "is_star": 0
+    },
+    {
+      "id": 84,
+      "name": "Tijjani Reijnders",
+      "team_id": 21,
+      "position": "Midfielder",
+      "is_star": 0
+    },
+    {
+      "id": 85,
+      "name": "Teun Koopmeiners",
+      "team_id": 21,
+      "position": "Midfielder",
+      "is_star": 0
+    },
+    {
+      "id": 86,
+      "name": "Nathan Aké",
+      "team_id": 21,
+      "position": "Defender",
+      "is_star": 0
+    },
+    {
+      "id": 87,
+      "name": "Denzel Dumfries",
+      "team_id": 21,
+      "position": "Defender",
+      "is_star": 0
+    },
+    {
+      "id": 88,
+      "name": "Bart Verbruggen",
+      "team_id": 21,
+      "position": "Goalkeeper",
+      "is_star": 0
+    },
+    {
+      "id": 89,
+      "name": "Kevin De Bruyne",
+      "team_id": 25,
+      "position": "Midfielder",
+      "is_star": 1
+    },
+    {
+      "id": 90,
+      "name": "Romelu Lukaku",
+      "team_id": 25,
+      "position": "Forward",
+      "is_star": 1
+    },
+    {
+      "id": 91,
+      "name": "Thibaut Courtois",
+      "team_id": 25,
+      "position": "Goalkeeper",
+      "is_star": 1
+    },
+    {
+      "id": 92,
+      "name": "Jérémy Doku",
+      "team_id": 25,
+      "position": "Forward",
+      "is_star": 0
+    },
+    {
+      "id": 93,
+      "name": "Amadou Onana",
+      "team_id": 25,
+      "position": "Midfielder",
+      "is_star": 0
+    },
+    {
+      "id": 94,
+      "name": "Youri Tielemans",
+      "team_id": 25,
+      "position": "Midfielder",
+      "is_star": 0
+    },
+    {
+      "id": 95,
+      "name": "Charles De Ketelaere",
+      "team_id": 25,
+      "position": "Forward",
+      "is_star": 0
+    },
+    {
+      "id": 96,
+      "name": "Leandro Trossard",
+      "team_id": 25,
+      "position": "Forward",
+      "is_star": 0
+    },
+    {
+      "id": 97,
+      "name": "Gianluigi Donnarumma",
+      "team_id": 6,
+      "position": "Goalkeeper",
+      "is_star": 1
+    },
+    {
+      "id": 98,
+      "name": "Nicolò Barella",
+      "team_id": 6,
+      "position": "Midfielder",
+      "is_star": 1
+    },
+    {
+      "id": 99,
+      "name": "Federico Chiesa",
+      "team_id": 6,
+      "position": "Forward",
+      "is_star": 1
+    },
+    {
+      "id": 100,
+      "name": "Alessandro Bastoni",
+      "team_id": 6,
+      "position": "Defender",
+      "is_star": 0
+    },
+    {
+      "id": 101,
+      "name": "Sandro Tonali",
+      "team_id": 6,
+      "position": "Midfielder",
+      "is_star": 0
+    },
+    {
+      "id": 102,
+      "name": "Gianluca Scamacca",
+      "team_id": 6,
+      "position": "Forward",
+      "is_star": 0
+    },
+    {
+      "id": 103,
+      "name": "James Rodríguez",
+      "team_id": 44,
+      "position": "Midfielder",
+      "is_star": 1
+    },
+    {
+      "id": 104,
+      "name": "Luis Díaz",
+      "team_id": 44,
+      "position": "Forward",
+      "is_star": 1
+    },
+    {
+      "id": 105,
+      "name": "Jhon Jáder Durán",
+      "team_id": 44,
+      "position": "Forward",
+      "is_star": 1
+    },
+    {
+      "id": 106,
+      "name": "Jhon Arias",
+      "team_id": 44,
+      "position": "Midfielder",
+      "is_star": 0
+    },
+    {
+      "id": 107,
+      "name": "Jefferson Lerma",
+      "team_id": 44,
+      "position": "Midfielder",
+      "is_star": 0
+    },
+    {
+      "id": 108,
+      "name": "Daniel Muñoz",
+      "team_id": 44,
+      "position": "Defender",
+      "is_star": 0
+    },
+    {
+      "id": 109,
+      "name": "Federico Valverde",
+      "team_id": 32,
+      "position": "Midfielder",
+      "is_star": 1
+    },
+    {
+      "id": 110,
+      "name": "Darwin Núñez",
+      "team_id": 32,
+      "position": "Forward",
+      "is_star": 1
+    },
+    {
+      "id": 111,
+      "name": "Ronald Araújo",
+      "team_id": 32,
+      "position": "Defender",
+      "is_star": 0
+    },
+    {
+      "id": 112,
+      "name": "Rodrigo Bentancur",
+      "team_id": 32,
+      "position": "Midfielder",
+      "is_star": 0
+    },
+    {
+      "id": 113,
+      "name": "José María Giménez",
+      "team_id": 32,
+      "position": "Defender",
+      "is_star": 0
+    },
+    {
+      "id": 114,
+      "name": "Mathías Olivera",
+      "team_id": 32,
+      "position": "Defender",
+      "is_star": 0
+    },
+    {
+      "id": 115,
+      "name": "Luka Modrić",
+      "team_id": 46,
+      "position": "Midfielder",
+      "is_star": 1
+    },
+    {
+      "id": 116,
+      "name": "Joško Gvardiol",
+      "team_id": 46,
+      "position": "Defender",
+      "is_star": 1
+    },
+    {
+      "id": 117,
+      "name": "Mateo Kovačić",
+      "team_id": 46,
+      "position": "Midfielder",
+      "is_star": 1
+    },
+    {
+      "id": 118,
+      "name": "Andrej Kramarić",
+      "team_id": 46,
+      "position": "Forward",
+      "is_star": 0
+    },
+    {
+      "id": 119,
+      "name": "Dominik Livaković",
+      "team_id": 46,
+      "position": "Goalkeeper",
+      "is_star": 0
+    },
+    {
+      "id": 120,
+      "name": "Luka Sučić",
+      "team_id": 46,
+      "position": "Midfielder",
+      "is_star": 0
+    },
+    {
+      "id": 121,
+      "name": "Achraf Hakimi",
+      "team_id": 10,
+      "position": "Defender",
+      "is_star": 1
+    },
+    {
+      "id": 122,
+      "name": "Yassine Bounou",
+      "team_id": 10,
+      "position": "Goalkeeper",
+      "is_star": 1
+    },
+    {
+      "id": 123,
+      "name": "Sofyan Amrabat",
+      "team_id": 10,
+      "position": "Midfielder",
+      "is_star": 1
+    },
+    {
+      "id": 124,
+      "name": "Youssef En-Nesyri",
+      "team_id": 10,
+      "position": "Forward",
+      "is_star": 1
+    },
+    {
+      "id": 125,
+      "name": "Noussair Mazraoui",
+      "team_id": 10,
+      "position": "Defender",
+      "is_star": 0
+    },
+    {
+      "id": 126,
+      "name": "Hakim Ziyech",
+      "team_id": 10,
+      "position": "Midfielder",
+      "is_star": 0
+    },
+    {
+      "id": 127,
+      "name": "Azzedine Ounahi",
+      "team_id": 10,
+      "position": "Midfielder",
+      "is_star": 0
+    },
+    {
+      "id": 128,
+      "name": "Christian Pulisic",
+      "team_id": 13,
+      "position": "Forward",
+      "is_star": 1
+    },
+    {
+      "id": 129,
+      "name": "Weston McKennie",
+      "team_id": 13,
+      "position": "Midfielder",
+      "is_star": 0
+    },
+    {
+      "id": 130,
+      "name": "Tyler Adams",
+      "team_id": 13,
+      "position": "Midfielder",
+      "is_star": 0
+    },
+    {
+      "id": 131,
+      "name": "Antonee Robinson",
+      "team_id": 13,
+      "position": "Defender",
+      "is_star": 0
+    },
+    {
+      "id": 132,
+      "name": "Folarin Balogun",
+      "team_id": 13,
+      "position": "Forward",
+      "is_star": 0
+    },
+    {
+      "id": 133,
+      "name": "Ricardo Pepi",
+      "team_id": 13,
+      "position": "Forward",
+      "is_star": 0
+    },
+    {
+      "id": 134,
+      "name": "Matt Turner",
+      "team_id": 13,
+      "position": "Goalkeeper",
+      "is_star": 0
+    },
+    {
+      "id": 135,
+      "name": "Timothy Weah",
+      "team_id": 13,
+      "position": "Forward",
+      "is_star": 0
+    },
+    {
+      "id": 136,
+      "name": "Raúl Jiménez",
+      "team_id": 1,
+      "position": "Forward",
+      "is_star": 1
+    },
+    {
+      "id": 137,
+      "name": "Santiago Giménez",
+      "team_id": 1,
+      "position": "Forward",
+      "is_star": 1
+    },
+    {
+      "id": 138,
+      "name": "Edson Álvarez",
+      "team_id": 1,
+      "position": "Midfielder",
+      "is_star": 1
+    },
+    {
+      "id": 139,
+      "name": "Guillermo Ochoa",
+      "team_id": 1,
+      "position": "Goalkeeper",
+      "is_star": 0
+    },
+    {
+      "id": 140,
+      "name": "Alexis Vega",
+      "team_id": 1,
+      "position": "Forward",
+      "is_star": 0
+    },
+    {
+      "id": 141,
+      "name": "César Huerta",
+      "team_id": 1,
+      "position": "Forward",
+      "is_star": 0
+    },
+    {
+      "id": 142,
+      "name": "Jonathan David",
+      "team_id": 5,
+      "position": "Forward",
+      "is_star": 1
+    },
+    {
+      "id": 143,
+      "name": "Alphonso Davies",
+      "team_id": 5,
+      "position": "Defender",
+      "is_star": 1
+    },
+    {
+      "id": 144,
+      "name": "Tajon Buchanan",
+      "team_id": 5,
+      "position": "Forward",
+      "is_star": 0
+    },
+    {
+      "id": 145,
+      "name": "Cyle Larin",
+      "team_id": 5,
+      "position": "Forward",
+      "is_star": 0
+    },
+    {
+      "id": 146,
+      "name": "Ismaël Koné",
+      "team_id": 5,
+      "position": "Midfielder",
+      "is_star": 0
+    },
+    {
+      "id": 147,
+      "name": "Alistair Johnston",
+      "team_id": 5,
+      "position": "Defender",
+      "is_star": 0
+    }
+  ],
+  "last_updated": "2026-05-25T18:00:00Z"
+}
